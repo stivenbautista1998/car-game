@@ -1,0 +1,228 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+  font-size: 10px;
+}
+
+.wrapper {
+  background: #FFF;
+}
+
+.header-main__title {
+  text-align: center;
+  margin: 0;
+}
+
+.section-game__text {
+  font-size: 3rem;
+  margin-top: 0px;
+}
+
+.header-main {
+  background: #333;
+  padding: 3.5rem;
+  color: #FFF;
+}
+
+.section-game {
+  text-align: center;
+}
+
+.section-game__title {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center; 
+  background: #63BAFF;
+  margin: .5em auto .2em auto;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.section-game__pista {
+  background: url("../images/pista.png") no-repeat;
+  /*background-size: cover;*/
+  width: 70%;
+  border: 1px solid;
+  margin: 3rem auto;
+  position: relative;
+  width: 1202px;
+  height: 600px;
+  z-index: 1;
+}
+
+.section-game__car-red {
+  position: absolute;
+  top: 195px;
+  left: 20px;
+  z-index: 2;
+}
+
+.section-game__car-blue {
+  position: absolute;
+  top: 350px;
+  left: 20px;
+  z-index: 2;
+}
+
+.section-game__start-button {
+  width: 300px;
+  padding: 2rem 3rem;
+  font-size: 3rem;
+  background: #E7DC53;
+  display: inline-block;
+  margin-bottom: 1em;
+  border: 6px solid #FFFFFF;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.50);
+  border-radius: 17px;
+  outline: none;
+}
+
+.section-game__start-button:hover {
+  background: #63BAFF;
+  color: #FFF;
+}
+
+.section-game__start-button:active {
+  background: #4789BD;
+  color: #FFF;
+}
+
+.section-game__start-button:focus {
+  border: 6px solid #79c428;
+}
+
+.section-game__tablero {
+  background: url("../images/tablet_1.png") no-repeat;
+  width: 600px;
+  padding: 290px 0px;
+  position: absolute;
+  left: 300px;
+  text-align: center;
+  visibility: hidden;
+  z-index: 3;
+  transition-duration: .3s;
+}
+
+.section-game__winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-shadow: 0 0 10px #FFF;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.footer-section {
+  background: #333;  
+  line-height: 5em;
+  color: #FFF;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.section-user {
+  font-size: 2rem;
+}
+
+.section-user__title {
+  text-align: center;
+}
+
+.section-user__label, .section-user__button {
+  display: block;
+}
+
+.section-user__button {
+  margin: 1rem auto;
+  width: 200px;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background: #79c428;
+  font-weight: bold;
+  color: #FFF;
+  cursor: pointer;
+  outline: none;
+}
+
+.section-user__button:hover {
+  background: #7ed321;
+}
+
+.section-user__button:active {
+  background: #7ed321;
+  color: #6E68F9;
+}
+
+.section-user__button:focus {
+  border: 2px solid #4C860C;
+}
+
+.section-user__container {
+  width: 600px;
+  margin: 3rem auto;
+}
+
+.section-user__input {
+  padding: .7em;
+  width: 30rem; 
+  border-radius: 10px;
+  border: 1px solid green;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: .5em;
+  margin-top: .2em;
+  outline: none;
+}
+
+.input--red {
+  color: red;
+}
+
+.input--red:focus {
+  border: 2px solid red;
+}
+
+.input--blue {
+  color: blue;
+}
+
+.input--blue:focus {
+  border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
